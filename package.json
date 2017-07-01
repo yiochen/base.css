@@ -1,24 +1,17 @@
 {
-  "name": "normalize.css",
-  "version": "7.0.0",
-  "description": "A modern alternative to CSS resets",
-  "main": "normalize.css",
-  "style": "normalize.css",
-  "files": [
-    "LICENSE.md",
-    "normalize.css"
-  ],
+  "name": "base.css",
+  "version": "0.1.0",
+  "description": "Yiou's base CSS",
+  "main": "base.css",
+  "style": "base.css",
   "devDependencies": {
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0"
   },
   "scripts": {
-    "test": "stylelint normalize.css"
+    "test": "stylelint base.css"
   },
-  "repository": "necolas/normalize.css",
   "license": "MIT",
-  "bugs": "https://github.com/necolas/normalize.css/issues",
-  "homepage": "https://necolas.github.io/normalize.css",
   "stylelint": {
     "extends": "stylelint-config-standard",
     "rules": {
