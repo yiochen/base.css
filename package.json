@@ -1,5 +1,5 @@
 {
-  "name": "base.css",
+  "name": "yiou-css-base",
   "version": "0.1.0",
   "description": "Yiou's base CSS",
   "main": "base.css",
@@ -18,7 +18,9 @@
       "font-family-no-duplicate-names": [
         true,
         {
-          "ignoreFontFamilyNames": ["monospace"]
+          "ignoreFontFamilyNames": [
+            "monospace"
+          ]
         }
       ]
     }
